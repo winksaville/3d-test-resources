@@ -1,11 +1,12 @@
 {"producer":{"name":"Blender","version":"2.79 (sub 6)","exporter_version":"5.6.4","file":"unit_plane.babylon"},
 "autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"ambientColor":[0,0,0],"gravity":[0,-9.81,0],
-"materials":[],
+"materials":[{"name":"unit_plane.Material.001","id":"unit_plane.Material.001","ambient":[0.8,0.8,0.8],"diffuse":[0.64,0.64,0.64],"specular":[0.5,0.5,0.5],"emissive":[0,0,0],"specularPower":50,"alpha":1,"backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4}],
 "multiMaterials":[],
 "skeletons":[],
-"meshes":[{"name":"Plane","id":"Plane","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[0.5,1,0.5],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":false,"pickable":true,"tags":""
+"meshes":[{"name":"Plane","id":"Plane","materialId":"unit_plane.Material.001","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[0.5,1,0.5],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":false,"pickable":true,"tags":""
 ,"positions":[1,0,-1,-1,0,1,-1,0,-1,1,0,1]
 ,"normals":[0,1,0,0,1,0,0,1,0,0,1,0]
+,"uvs":[1,0,0,1,0,0,1,1]
 ,"indices":[0,1,2,0,3,1]
 ,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":4,"indexStart":0,"indexCount":6}]
 ,"instances":[]}
